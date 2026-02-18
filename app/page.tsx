@@ -16,7 +16,7 @@ export default function Home() {
         <h1 className="text-6xl md:text-7xl font-semibold leading-[1.1] tracking-tight mb-8 animate-fadeInUp" style={{animationDelay: '0.1s'}}>
           Turning Data Into <br />
           <span className="gradient-text">
-            Business Intelligence
+            Strategic Business Intelligence
           </span>
         </h1>
 
