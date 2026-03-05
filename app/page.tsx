@@ -329,6 +329,49 @@ export default function Home() {
   </div>
 </section>
 
+{/* CERTIFICATIONS */}
+<section id="certifications" className="bg-[#faf9f6] border-y border-[#e9ecef]">
+  <div className="max-w-7xl mx-auto px-6 py-32">
+
+    <h2 className="text-4xl font-semibold tracking-tight mb-16 text-[#1a1e24]">
+      Certifications
+    </h2>
+
+    <div className="grid md:grid-cols-2 gap-10">
+
+      {/* Certification Card */}
+      <div className="bg-white border border-[#e9ecef] rounded-2xl p-8 hover:shadow-xl transition-all duration-300">
+
+        <h3 className="text-xl font-semibold mb-4 text-[#1a1e24]">
+          Data Science & Analytics Certification
+        </h3>
+
+        <p className="text-sm text-[#4a5568] mb-6 leading-relaxed">
+          Completed an intensive training program covering SQL, Python,
+          Machine Learning, data analysis, and business intelligence
+          workflows with practical case studies.
+        </p>
+
+        <p className="text-sm text-[#6c757d] mb-6">
+          <span className="font-medium text-[#2a5c6e]">Issued by:</span> Imarticus Learning
+        </p>
+
+        <a
+          href="/certificates/imarticus-datascience.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-2 rounded-full bg-[#2a5c6e] text-white text-sm hover:bg-[#1d4352] transition"
+        >
+          View Certificate
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
 {/* RESUME SECTION */}
 <section id="resume" className="max-w-7xl mx-auto px-6 py-32">
 
