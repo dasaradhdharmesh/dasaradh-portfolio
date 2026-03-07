@@ -3,7 +3,6 @@
 import { useEffect, useState } from "react";
 
 export default function Intro() {
-  const [visible, setVisible] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
